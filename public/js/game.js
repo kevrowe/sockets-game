@@ -30,7 +30,6 @@
   });
 
   socket.on('game.control.setPosition', function(data) {
-    console.log(data);
     setPosition(data);
   });
 
